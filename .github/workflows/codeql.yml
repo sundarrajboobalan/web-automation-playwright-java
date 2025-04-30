@@ -24,7 +24,7 @@ on:
     - issue-*
     
   schedule:
-    - cron: '30 07 * * 1'
+    - cron: '* * * * *'
 
 jobs:
   analyze:
